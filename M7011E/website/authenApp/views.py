@@ -32,8 +32,7 @@ def SignupPage(request):
     
     return render(request, "SignupPage.html")
 
-#https://www.youtube.com/watch?v=1UvTNMH7zDo&list=LL&index=2&t=895s&ab_channel=GeeksforGeeks
-#30:41
+
 
 def LoginPage(request):
     return render(request, "LoginPage.html")
